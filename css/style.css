@@ -188,7 +188,7 @@ section {
 }
 
 .hero__logo {
-  width: clamp(120px, 30vw, 200px);
+  width: clamp(200px, 45vw, 360px);
   margin-bottom: var(--space-lg);
 }
 
@@ -592,4 +592,17 @@ section {
 
   .lightbox__prev { left: var(--space-xs); }
   .lightbox__next { right: var(--space-xs); }
+}
+
+/* =============================================
+   BOUNCING EGGPLANT
+   ============================================= */
+#eggplant {
+  position: fixed;
+  font-size: 3rem;
+  line-height: 1;
+  pointer-events: none;
+  user-select: none;
+  z-index: 50;
+  will-change: transform;
 }

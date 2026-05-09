@@ -86,3 +86,30 @@ document.addEventListener('keydown', e => {
   if (e.key === 'ArrowRight') showNext();
   if (e.key === 'ArrowLeft') showPrev();
 });
+
+// Bouncing eggplant
+const eggplant = document.getElementById('eggplant');
+const SIZE = 52;
+let ex = Math.random() * (window.innerWidth  - SIZE);
+let ey = Math.random() * (window.innerHeight - SIZE);
+let dx = 1.8;
+let dy = 1.3;
+let angle = 0;
+
+function bounceEggplant() {
+  ex += dx;
+  ey += dy;
+
+  const maxX = window.innerWidth  - SIZE;
+  const maxY = window.innerHeight - SIZE;
+
+  if (ex <= 0)    { ex = 0;    dx = Math.abs(dx);  angle = -angle; }
+  if (ex >= maxX) { ex = maxX; dx = -Math.abs(dx); angle = -angle; }
+  if (ey <= 0)    { ey = 0;    dy = Math.abs(dy);  angle = -angle; }
+  if (ey >= maxY) { ey = maxY; dy = -Math.abs(dy); angle = -angle; }
+
+  eggplant.style.transform = `translate(${ex}px, ${ey}px) rotate(${angle}deg)`;
+  requestAnimationFrame(bounceEggplant);
+}
+
+bounceEggplant();
