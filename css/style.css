@@ -199,7 +199,7 @@ section {
 .hero__tagline {
   color: var(--color-muted);
   font-size: clamp(1rem, 2.5vw, 1.25rem);
-  max-width: 104ch;
+  max-width: 72ch;
   margin-bottom: var(--space-lg);
 }
 
