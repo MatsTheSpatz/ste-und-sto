@@ -598,18 +598,3 @@ section {
   .lightbox__prev { left: var(--space-xs); }
   .lightbox__next { right: var(--space-xs); }
 }
-
-/* =============================================
-   BOUNCING EGGPLANT
-   ============================================= */
-#eggplant {
-  position: fixed;
-  top: 0;
-  left: 0;
-  font-size: 3rem;
-  line-height: 1;
-  pointer-events: none;
-  user-select: none;
-  z-index: 50;
-  will-change: transform;
-}
