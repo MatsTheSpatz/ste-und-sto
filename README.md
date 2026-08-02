@@ -12,16 +12,9 @@ Pure HTML + CSS + vanilla JS. No framework, no build step. GitHub Pages serves i
 
 ---
 
-## Swapping in real content
+## Development
 
-### Logo
-Replace `assets/logo.svg` with your real logo file (SVG or PNG). If using PNG, update the `<img>` src in `index.html`.
-
-### Photos
-Drop your event photos (JPG or PNG) into `assets/images/`. Then update the `<img>` tags in the gallery section of `index.html`.
-
-### Text & email
-Edit the placeholder text directly in `index.html`. Search for `<!-- PLACEHOLDER` comments to find all spots that need real content.
+Open `index.html` directly in a browser — no server needed.
 
 ---
 
@@ -34,7 +27,8 @@ Edit the placeholder text directly in `index.html`. Search for `<!-- PLACEHOLDER
 4. Save — the site will be live at `https://matsthespatz.github.io/ste-und-sto`
 
 ### Custom domain DNS (stepfundstocker.ch)
-Add these records at your domain registrar (e.g. Infomaniak):
+Domain registrar is **Infomaniak**.
+Added these records to domain registrar:
 
 | Type | Name | Value |
 |------|------|-------|
@@ -45,9 +39,3 @@ Add these records at your domain registrar (e.g. Infomaniak):
 | CNAME | www | matsthespatz.github.io |
 
 After DNS propagates (up to 24h), enable **Enforce HTTPS** in GitHub Pages settings.
-
----
-
-## Development
-
-Open `index.html` directly in a browser — no server needed.

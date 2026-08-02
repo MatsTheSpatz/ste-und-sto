@@ -1,7 +1,7 @@
 # Stepf und Stocker — Project Context
 
 ## What this is
-Static website for the cooking project "Stepf und Stocker". Mats and his friend cook at guests' homes using ingredients the guests provide, creating a multi-course menu. The project is a statement against food waste.
+Static website for the cooking project "Stepf und Stocker". Stepf und Stocker cook at guests' homes using ingredients the guests provide, creating a multi-course menu. The project is a statement against food waste.
 
 ## Domain & Hosting
 - Domain: stepfundstocker.ch
@@ -17,12 +17,8 @@ Static website for the cooking project "Stepf und Stocker". Mats and his friend 
 
 ## Contact
 - Email shown as plain text (no mailto link)
-- Contact email: stestoplaceholder@food.ch
-
-## Assets
-- Logo: assets/logo.svg (replace with real logo file)
-- Photos: assets/images/ (replace placeholder images with real event photos)
+- Contact email: info@stepfundstocker.ch
 
 ## Owner preferences
-- Mats does not want to write or review code — all design/implementation decisions are Claude's
+- Author does not want to write or review code — all design/implementation decisions are Claude's
 - No frameworks, no build pipeline — pure HTML + CSS + vanilla JS only
