@@ -236,13 +236,13 @@ section {
 
 .konzept__header {
   text-align: center;
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-xs);
 }
 
 .konzept__label {
   display: inline-block;
   color: var(--color-accent);
-  font-size: 0.75rem;
+  font-size: 1.5rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   margin-bottom: var(--space-sm);
@@ -287,7 +287,7 @@ section {
 .about__label {
   display: inline-block;
   color: var(--color-accent);
-  font-size: 0.75rem;
+  font-size: 1.5rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   margin-bottom: var(--space-sm);
@@ -329,13 +329,13 @@ section {
 
 .impressionen__header {
   text-align: center;
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-xs);
 }
 
 .impressionen__label {
   display: inline-block;
   color: var(--color-accent);
-  font-size: 0.75rem;
+  font-size: 1.5rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   margin-bottom: var(--space-sm);
@@ -469,7 +469,7 @@ section {
 .kontakt__label {
   display: inline-block;
   color: var(--color-accent);
-  font-size: 0.75rem;
+  font-size: 1.5rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   margin-bottom: var(--space-sm);
