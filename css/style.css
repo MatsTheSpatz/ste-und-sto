@@ -523,7 +523,6 @@ section {
 
   .about__image {
     aspect-ratio: 3/2;
-    order: -1;
   }
 
   .impressionen__grid {
