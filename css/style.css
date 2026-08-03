@@ -252,7 +252,6 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: var(--space-md);
-  counter-reset: steps;
 }
 
 .konzept__step {
@@ -260,18 +259,6 @@ section {
   border: 1px solid var(--color-border);
   border-radius: 4px;
   position: relative;
-  counter-increment: steps;
-}
-
-.konzept__step::before {
-  content: "0" counter(steps);
-  display: block;
-  font-family: var(--font-head);
-  font-size: 2.5rem;
-  color: var(--color-accent-light);
-  font-weight: 700;
-  line-height: 1;
-  margin-bottom: var(--space-sm);
 }
 
 .konzept__step h3 {
