@@ -189,7 +189,7 @@ section {
 
 .hero__logo {
   width: clamp(200px, 55vw, 720px);
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-md);
 }
 
 .hero__title {
