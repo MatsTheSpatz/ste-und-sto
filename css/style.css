@@ -188,7 +188,7 @@ section {
 }
 
 .hero__logo {
-  width: clamp(200px, 45vw, 360px);
+  width: clamp(200px, 55vw, 720px);
   margin-bottom: var(--space-lg);
 }
 
