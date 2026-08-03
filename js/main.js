@@ -24,7 +24,7 @@ navLinks.querySelectorAll('a').forEach(link => {
 document.getElementById('year').textContent = new Date().getFullYear();
 
 // Gallery lightbox
-const grid = document.getElementById('galerieGrid');
+const grid = document.getElementById('impressionenGrid');
 const lightbox = document.getElementById('lightbox');
 const lightboxImg = document.getElementById('lightboxImg');
 const lightboxClose = document.getElementById('lightboxClose');
@@ -35,10 +35,10 @@ let currentIndex = 0;
 let images = [];
 
 if (grid) {
-  images = Array.from(grid.querySelectorAll('.galerie__item img'));
+  images = Array.from(grid.querySelectorAll('.impressionen__item img'));
 
   grid.addEventListener('click', e => {
-    const item = e.target.closest('.galerie__item');
+    const item = e.target.closest('.impressionen__item');
     if (!item) return;
     currentIndex = parseInt(item.dataset.index, 10);
     openLightbox(currentIndex);
