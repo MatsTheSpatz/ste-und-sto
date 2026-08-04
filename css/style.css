@@ -130,7 +130,7 @@ section {
 .nav__logo-text {
   font-family: var(--font-head);
   font-size: 1.1rem;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 0.02em;
 }
 
