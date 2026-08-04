@@ -16,6 +16,20 @@ Static website for the cooking project "Stepf und Stocker". Stepf und Stocker co
 - Logo (`logo.svg`) uses the font "Tsukushi A Round Gothic"
 - Single page, 5 sections: Hero → Konzept → Über uns → Impressionen → Kontakt
 
+## Impressionen grid layout
+Images are arranged in a CSS grid. Each image's span:
+| Image                | Cols | Rows |
+|----------------------|------|------|
+| `zutaten.jpg`        | 2    | 2    |
+| `schnetzeln.jpg`     | 1    | 1    |
+| `teller_1.jpg`       | 1    | 1    |
+| `teller_2.jpg`       | 1    | 1    |
+| `anrichten.jpg`      | 1    | 2    |
+| `tafel.jpg`          | 1    | 2    |
+| `ueberlegen.jpg`     | 1    | 2    |
+| `gang_mit_besteck.jpg` | 1  | 1    |
+| `auftischen.jpg`     | 1    | 1    |
+
 ## Contact
 - Email shown as plain text (no mailto link)
 - Contact email: info@stepfundstocker.ch
