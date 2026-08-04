@@ -528,13 +528,7 @@ section {
 
   .impressionen__item:nth-child(1) {
     grid-column: span 2;
-    grid-row: span 1;
-  }
-
-  .impressionen__item:nth-child(5),
-  .impressionen__item:nth-child(6),
-  .impressionen__item:nth-child(7) {
-    grid-row: span 1;
+    grid-row: span 2;
   }
 }
 
@@ -578,12 +572,7 @@ section {
 
   .impressionen__item:nth-child(1) {
     grid-column: span 2;
-  }
-
-  .impressionen__item:nth-child(5),
-  .impressionen__item:nth-child(6),
-  .impressionen__item:nth-child(7) {
-    grid-row: span 1;
+    grid-row: span 2;
   }
 
   .konzept__steps {
