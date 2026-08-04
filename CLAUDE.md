@@ -13,6 +13,7 @@ Static website for the cooking project "Stepf und Stocker". Stepf und Stocker co
 - Style: Clean & minimal
 - Colors: off-white background (#FAFAF8), near-black text (#1A1A1A), sage green accent (#6B8F71)
 - Fonts: Playfair Display (headings, via Google Fonts) + system sans-serif (body)
+- Logo (`logo.svg`) uses the font "Tsukushi A Round Gothic"
 - Single page, 5 sections: Hero → Konzept → Über uns → Impressionen → Kontakt
 
 ## Contact
