@@ -1,6 +1,6 @@
 # Stepf und Stocker
 
-Website for the cooking project "Stepf und Stocker" — we cook at your home using ingredients you bring. A multi-course menu made from what you have. A project against food waste.
+Website for the cooking project "Stepf und Stocker".
 
 Live at **[stepfundstocker.ch](https://stepfundstocker.ch)**
 
