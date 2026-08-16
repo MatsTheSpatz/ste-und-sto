@@ -2,10 +2,10 @@
    DESIGN TOKENS
    ============================================= */
 :root {
-  --color-bg:      #FAFAF8;
+  --color-bg:      #f5fcf4; /* fef5fe */
   --color-text:    #1A1A1A;
   --color-muted:   #6B6B6B;
-  --color-accent:  #6B8F71;
+  --color-accent:  #FC4ED9;
   --color-accent-light: #E8F0E9;
   --color-border:  #E0E0DC;
   --color-white:   #FFFFFF;
@@ -237,6 +237,7 @@ section {
 .konzept__header {
   text-align: center;
   margin-bottom: var(--space-xs);
+  font-weight: 600;
 }
 
 .konzept__label {
@@ -291,6 +292,7 @@ section {
   letter-spacing: 0.15em;
   text-transform: uppercase;
   margin-bottom: var(--space-sm);
+  font-weight: 600;
 }
 
 .about__text h2 {
@@ -325,6 +327,7 @@ section {
 .impressionen__header {
   text-align: center;
   margin-bottom: var(--space-xs);
+  font-weight: 600;
 }
 
 .impressionen__label {
@@ -469,6 +472,7 @@ section {
   letter-spacing: 0.15em;
   text-transform: uppercase;
   margin-bottom: var(--space-sm);
+  font-weight: 600;
 }
 
 .kontakt h2 {
