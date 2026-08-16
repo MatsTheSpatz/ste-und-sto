@@ -244,7 +244,7 @@ section {
   display: inline-block;
   color: var(--color-accent);
   font-size: 1.5rem;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
   margin-bottom: var(--space-sm);
 }
@@ -289,7 +289,7 @@ section {
   display: inline-block;
   color: var(--color-accent);
   font-size: 1.5rem;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
   margin-bottom: var(--space-sm);
   font-weight: 600;
@@ -334,7 +334,7 @@ section {
   display: inline-block;
   color: var(--color-accent);
   font-size: 1.5rem;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
   margin-bottom: var(--space-sm);
 }
@@ -469,7 +469,7 @@ section {
   display: inline-block;
   color: var(--color-accent);
   font-size: 1.5rem;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
   margin-bottom: var(--space-sm);
   font-weight: 600;
