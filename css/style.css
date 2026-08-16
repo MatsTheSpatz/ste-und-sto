@@ -317,6 +317,10 @@ section {
   border-radius: 4px;
 }
 
+.photo-credit {
+  color: var(--color-text);
+}
+
 /* =============================================
    SECTION: IMPRESSIONEN
    ============================================= */
