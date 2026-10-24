@@ -40,6 +40,9 @@ Images are arranged in a CSS grid. Each image's span:
 - Email shown as plain text (no mailto link)
 - Contact email: info@stepfundstocker.ch
 
+## Cache busting
+- `index.html` links `css/style.css?v=N` — bump `N` whenever `style.css` changes, so browsers (notably Safari) don't serve a stale cached copy.
+
 ## Owner preferences
 - Author does not want to write or review code — all design/implementation decisions are Claude's
 - No frameworks, no build pipeline — pure HTML + CSS + vanilla JS only
