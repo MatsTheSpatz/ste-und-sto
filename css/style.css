@@ -365,8 +365,14 @@ section {
 
 .impressionen__item:nth-child(5),
 .impressionen__item:nth-child(6),
-.impressionen__item:nth-child(7) {
+.impressionen__item:nth-child(7),
+.impressionen__item:nth-child(11),
+.impressionen__item:nth-child(12) {
   grid-row: span 2;
+}
+
+.impressionen__item:nth-child(10) {
+  grid-column: span 2;
 }
 
 .impressionen__item img {

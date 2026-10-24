@@ -29,6 +29,12 @@ Images are arranged in a CSS grid. Each image's span:
 | `ueberlegen.jpg`     | 1    | 2    |
 | `gang_mit_besteck.jpg` | 1  | 1    |
 | `auftischen.jpg`     | 1    | 1    |
+| `image-stesto.jpg`   | 2    | 1    |
+| `kompostition.jpg`   | 1    | 2    |
+| `lisa-zitrone.jpg`   | 1    | 2    |
+| `dessert.jpg`        | 1    | 1    |
+| `anrichten-bohnen.jpg` | 1  | 1    |
+| `anrichten-randen.jpg` | 1  | 1    |
 
 ## Contact
 - Email shown as plain text (no mailto link)
